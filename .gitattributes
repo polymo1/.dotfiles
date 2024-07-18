@@ -3,3 +3,5 @@
 .gnupg/ filter=git-crypt diff=git-crypt
 .gnupg/** filter=git-crypt diff=git-crypt
 .config/casualOnTheSpot/config.json filter=git-crypt diff=git-crypt
+.config/.thunderbird/ filter=git-crypt diff=git-crypt
+.config/.thunderbird/** filter=git-crypt diff=git-crypt
