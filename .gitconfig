@@ -1,0 +1,17 @@
+# default to personal config
+[include]
+  path = ~/.gitconfig.personal
+
+# when working on sidestore projects
+[includeIf "gitdir:~/code/sidestore/**/.git"]
+  path = ~/.gitconfig.sidestore
+
+[github]
+  user = "polymo1"
+
+[gpg]
+    program = gpg
+[commit]
+    gpgSign = true
+[url "ssh://git@github.com"]
+	insteadOf = https://github.com

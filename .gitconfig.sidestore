@@ -1,0 +1,7 @@
+[user]
+  name = Wesley Bryie (SideStore)
+  email = wes@sidesto.re
+  signingkey = 2936FACF3CC12305
+
+[core]
+  sshCommand = "ssh -i ~/.ssh/sidestore-ed25519"
