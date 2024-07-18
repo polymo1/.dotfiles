@@ -10,7 +10,8 @@ zstyle :compinstall filename '/home/wesleybryie/.zshrc'
 autoload -Uz compinit
 compinit
 # End of lines added by compinstall
-eval "$(oh-my-posh init zsh)"
+eval "$(starship init zsh)"
+# eval "$(oh-my-posh init zsh)"
 export EDITOR=nano
-alias cedit='chezmoi edit'
+# alias cedit='chezmoi edit'
 export PATH=$HOME/.local/bin:$PATH
