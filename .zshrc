@@ -15,3 +15,5 @@ eval "$(starship init zsh)"
 export EDITOR=nano
 # alias cedit='chezmoi edit'
 export PATH=$HOME/.local/bin:$PATH
+
+export TERMINAL=/usr/bin/kitty
