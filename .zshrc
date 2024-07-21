@@ -17,3 +17,4 @@ export EDITOR=nano
 export PATH=$HOME/.local/bin:$PATH
 
 export TERMINAL=/usr/bin/kitty
+alias vim=nvim

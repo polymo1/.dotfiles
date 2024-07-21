@@ -8,3 +8,4 @@
 .config/rescrobbled/ filter=git-crypt diff=git-crypt
 .config/rescrobbled/** filter=git-crypt diff=git-crypt
 .config/vesktop/settings/settings.json filter=git-crypt diff=git-crypt
+.zotero/zotero/crb2uvwd.default/logins.json filter=git-crypt diff=git-crypt

@@ -1,7 +1,7 @@
 [user]
-  name = polymo1
-  email = polymo1@proton.me
-  signingkey = 6C223BF7529EDA72
+  name = Wesley Bryie
+  email = wes@wesbryie.com
+  signingkey = 119FEB00D9951E93
 
 [core]
   sshCommand = "ssh -i ~/.ssh/id_ed25519"
