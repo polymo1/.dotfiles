@@ -41,9 +41,6 @@ exec --no-startup-id mako
 exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 exec --no-startup-id /usr/lib/pam_kwallet_init
 
-# SSH Agent
-exec ssh-agent zsh
-
 # Bluetooth Applet
 exec --no-startup-id blueman-applet
 
@@ -55,6 +52,9 @@ exec --no-startup-id volumeicon
 
 # Compositor
 exec --no-startup-id picom
+
+# background and monitors
+exec --no-startup-id sh ~/.fix-monitors.sh > /dev/null
 
 # Set the GTK theme
 # gtk3
@@ -184,6 +184,9 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+# monitor keybind
+bindsym $mod+Shift+m exec "sh ~/.fix-monitors.sh > /dev/null"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {

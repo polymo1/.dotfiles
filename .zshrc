@@ -20,3 +20,5 @@ export TERMINAL=/usr/bin/kitty
 alias vim=nvim
 
 export PATH=$PATH:/home/wesleybryie/.spicetify
+
+eval $(keychain --eval id_rsa id_ed25519 sidestore-ed25519 --agents ssh --quick --quiet)
