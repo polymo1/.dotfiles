@@ -3,7 +3,7 @@
   path = ~/.gitconfig.personal
 
 # when working on sidestore projects
-[includeIf "gitdir:~/code/sidestore/**/.git"]
+[includeIf "gitdir:~/workspace/code/sidestore/**/.git"]
   path = ~/.gitconfig.sidestore
 
 [github]

@@ -18,3 +18,5 @@ export PATH=$HOME/.local/bin:$PATH
 
 export TERMINAL=/usr/bin/kitty
 alias vim=nvim
+
+export PATH=$PATH:/home/wesleybryie/.spicetify
